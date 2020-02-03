@@ -1,8 +1,6 @@
 --- 
 - name: install httpd
   hosts: all
-  remote_user: ansible
-  become: true
   tasks: 
   - name: install latest apache
     yum: 
